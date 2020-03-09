@@ -1,0 +1,130 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 8,
+    "passes": 8,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-03-09T19:56:55.734Z",
+    "end": "2020-03-09T19:56:56.162Z",
+    "duration": 428
+  },
+  "tests": [
+    {
+      "title": "returns an array of all matching drivers",
+      "fullTitle": "index.js driversWithRevenueOver() returns an array of all matching drivers",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an empty array if there is no match",
+      "fullTitle": "index.js driversWithRevenueOver() returns an empty array if there is no match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an array of all matching drivers names as string",
+      "fullTitle": "index.js driverNamesWithRevenueOver() returns an array of all matching drivers names as string",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an empty array if there is no match",
+      "fullTitle": "index.js driverNamesWithRevenueOver() returns an empty array if there is no match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an array of all matching drivers",
+      "fullTitle": "index.js exactMatch() returns an array of all matching drivers",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an empty array if there is no match",
+      "fullTitle": "index.js exactMatch() returns an empty array if there is no match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an array of names for all matching drivers",
+      "fullTitle": "index.js exactMatchToList() returns an array of names for all matching drivers",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an empty array if there is no match",
+      "fullTitle": "index.js exactMatchToList() returns an empty array if there is no match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "returns an array of all matching drivers",
+      "fullTitle": "index.js driversWithRevenueOver() returns an array of all matching drivers",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an empty array if there is no match",
+      "fullTitle": "index.js driversWithRevenueOver() returns an empty array if there is no match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an array of all matching drivers names as string",
+      "fullTitle": "index.js driverNamesWithRevenueOver() returns an array of all matching drivers names as string",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an empty array if there is no match",
+      "fullTitle": "index.js driverNamesWithRevenueOver() returns an empty array if there is no match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an array of all matching drivers",
+      "fullTitle": "index.js exactMatch() returns an array of all matching drivers",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an empty array if there is no match",
+      "fullTitle": "index.js exactMatch() returns an empty array if there is no match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an array of names for all matching drivers",
+      "fullTitle": "index.js exactMatchToList() returns an array of names for all matching drivers",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an empty array if there is no match",
+      "fullTitle": "index.js exactMatchToList() returns an empty array if there is no match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
