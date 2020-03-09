@@ -19,9 +19,8 @@ function exactMatch(list, object){
         for (const key in object) {
           matches = driver[key] === object[key];
         }
-    
         return matches;
-
+        debugger
     })
 }
 
