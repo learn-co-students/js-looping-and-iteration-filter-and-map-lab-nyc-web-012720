@@ -35,24 +35,4 @@ function exactMatchToList(driverObjects, otherObject) {
     }  
 }
 
-
-
-
-
-
-
-            
-            
-            
-            
-const drivers = [
-    { name: 'Sally',   revenue: 400 },
-    { name: 'Annette', revenue: 200 },
-    { name: 'Jim',     revenue: 150 },
-    { name: 'Sally',   revenue: 200 }
-]
-console.log(exactMatch(drivers, {name: "Sally"}))
-console.log(exactMatch(drivers, {revenue: 200}))
-            
-            // console.log(exactMatchToList(drivers, {revenue: 200}))
             
