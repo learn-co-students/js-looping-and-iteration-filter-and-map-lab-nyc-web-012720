@@ -7,8 +7,8 @@ function driversWithRevenueOver(driverObjects, rev) {
 }
 
 function driverNamesWithRevenueOver(driverObjects, rev) {
-    const greaterRevs = driverObjects.filter(obj => obj.revenue > rev)
-    return greaterRevs.map(obj => obj.name)
+    const greaterRevs = driversWithRevenueOver(driverObjects, rev).map(obj => obj.name)
+    return greaterRevs
 }
 
 function exactMatch(driverObjects, otherObject) {
@@ -23,16 +23,8 @@ function exactMatch(driverObjects, otherObject) {
     }  
 }
 function exactMatchToList(driverObjects, otherObject) {
-    let matches = [];
-    for (const obj of driverObjects) {
-        for (const key in obj) {
-            if (!matches.includes(obj)){
-                matches = driverObjects.filter(object => object[key] === otherObject[key])
-            } 
-        }
-    let toList = matches.map(driver => driver.name)
+    let toList = exactMatch(driverObjects, otherObject).map(driver => driver.name)
     return toList
-    }  
 }
 
             
