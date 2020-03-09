@@ -11,21 +11,20 @@ function driverNamesWithRevenueOver(list, number) {
   });
 }
 
-function exactMatch(list, object){
-    return list.filter(function(driver){
+function exactMatch(list, object) {
+  return list.filter(function(driver) {
+    let matches = false;
 
-        let matches = false;
-
-        for (const key in object) {
-          matches = driver[key] === object[key];
-        }
-        return matches;
-        debugger
-    })
+    for (const key in object) {
+      matches = driver[key] === object[key];
+    }
+    return matches;
+    debugger;
+  });
 }
 
-function exactMatchToList(list, object){
-    return exactMatch(list, object).map(function(driver){
-        return driver.name
-    })
+function exactMatchToList(list, object) {
+  return exactMatch(list, object).map(function(driver) {
+    return driver.name;
+  });
 }
